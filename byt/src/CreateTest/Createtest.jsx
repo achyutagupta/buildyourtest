@@ -7,7 +7,7 @@ const Createtest = () => {
   const [prompt , setprompt] = useState('');
   const [json_res , setjson_res] = useState('');
   const openai = new OpenAI({
-    // apiKey: "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",
+    // apiKey: ,
     dangerouslyAllowBrowser: true ,
   });
 
